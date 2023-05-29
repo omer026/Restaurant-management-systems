@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My responsive website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="../responsive/img/img2.jpg" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Coding with a Passion</p>
+                <p class="text-small">Just learning interesting things and implementing or doing some personalisation
+                    makes you motivated during coding.</p>
+                <div class="buttons">
+                    <button class="btn" onclick="location.href='https://www.linkedin.com/in/wasif-ali-khan-949b1b212'">Linked In</button>
+                    <button class="btn" onclick="location.href='https://github.com/Wasifalikhan064'">Github</button>
+
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="section" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">The Joy Of Coding</p>
+        <p class="sectionSubTag text-small">
+            There are so many things to love about coding, both from a technical and philosophical perspective. You can sharpen your mind, rewire your brain, provide people with great software... the options and impact are nearly endless. Programming can really empower you to change the world. And the most ridiculous thing about it is that you can become a world-class Java developer alone in your room almost for free. So, are you still hesitating?
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="./img/img3.jpg" alt="Laptop image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="paras">
+        <p class="sectionTag text-big">Art Of Problem Solving</p>
+        <p class="sectionSubTag text-small">Problem solving in programming skills helps to gain more knowledge over coding and programming, which is a major benefit. These problem solving skills also help to develop more skills in a person and build a promising career.These skills also help to find the solutions for critical and complex problems in a perfect way.Learning and developing problem solving in programming helps in building a good foundation.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="./img/img4.jpg" alt="Laptop image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big">The Ultimate Mindset</p>
+        <p class="sectionSubTag text-small">An effective coding mindset begins with asking yourself if the three high-level goals as a programmer are being satisfied. Learn to strap in and not stop until the job is done.Learn to love the pain.Remember WHY you are doing something!.Remind yourself that EVERYONE needs help. Reach out.Keep in mind that having fun is key. Remember to be playful!</p>
+        </div>
+        <div class="thumbnail">
+            <img src="./img/img.jpg" alt="Laptop image" class="imgFluid">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+                  <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your concern"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2023 www.Wasifalikhan064.com - All rights reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+
+</body>
+
+</html>
